@@ -90,6 +90,7 @@ groups = []
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9",]
 group_labels = ["WWW", "DEV", "SYS", "DOC", "GAME", "CHAT", "MUS", "VID", "GFX",]
 group_layouts = ["max", "max", "max", "max", "max", "max", "max", "max", "max",]
+groups_spawns = ["librewolf", "", "alacritty", "pcmanfm", "steam", "discord", "", "", "",]
 
 for i in range(len(group_names)):
     groups.append(
@@ -97,6 +98,7 @@ for i in range(len(group_names)):
                 name=group_names[i],
                 layout=group_layouts[i].lower(),
                 label=group_labels[i],
+                spawn=group_spawns[i],
             ))
 
 for i in groups:
