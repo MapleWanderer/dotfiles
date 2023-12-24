@@ -4,7 +4,7 @@
 
 # Fish greeting
 function fish_greeting
-    random choice "Hello!" "Hi" "G'day" "Howdy"
+	random choice "Shouldn't have wished to live in more interesting times." "No traps, please." "No time to rest." "Swift as my feet will carry me." "At least things have stayed interesting." "These boots have seen everything." "All's well that ends... not as bad as it could have." "Cursed to put my hands on everything." "I've got a lot on my mind, and well... in it."
 end
 
 ### EXPORT ###
