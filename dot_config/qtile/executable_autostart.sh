@@ -1,3 +1,3 @@
 #!/bin/sh
-picom -b &
+picom -b
 #nm-applet &
