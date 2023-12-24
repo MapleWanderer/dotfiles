@@ -125,7 +125,7 @@ colors = colors.DoomOne
 
 ### LAYOUT SETTINGS ###
 layout_theme = {"border_width": 0,
-                "margin": 20,
+                "margin": 50,
                 #"border_focus": colors[8],
                 #"border_normal": colors[0]
                 }
