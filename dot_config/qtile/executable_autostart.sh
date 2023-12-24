@@ -1,2 +1,3 @@
 #!/bin/sh
-picom -b
+picom --daemon &
+nm-applet &
