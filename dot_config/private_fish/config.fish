@@ -4,7 +4,7 @@
 
 # Fish greeting
 function fish_greeting
-	random choice "Shouldn't have wished to live in more interesting times." "No traps, please." "No time to rest." "Swift as my feet will carry me." "At least things have stayed interesting." "These boots have seen everything." "All's well that ends... not as bad as it could have." "Cursed to put my hands on everything." "I've got a lot on my mind, and well... in it."
+	random choice "Shouldn't have wished to live in more interesting times." "No traps, please." "No time to rest." "Swift as my feet will carry me." "At least things have stayed interesting." "These boots have seen everything." "All's well that ends... not as bad as it could have." "Cursed to put my hands on everything." "I've got a lot on my mind, and well... in it." "Still alive, despite everything." "I wish I had a Bag of Holding." "Is that blood? No, nevermind." "I wonder if the gods are watching me." "Never wanted the easy path." "Breathe deep, and move!" "Power courses through you. Authority."
 end
 
 ### EXPORT ###
