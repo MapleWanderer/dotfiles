@@ -34,7 +34,7 @@ import colors
 
 ### CREATED VARIABLES ###
 mod = "mod4"
-myTerm = "alacritty"
+myTerm = "kitty"
 myBrowser = "librewolf"
 
 ### KEYBINDINGS ###
@@ -90,7 +90,7 @@ groups = []
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9",]
 group_labels = ["WWW", "DEV", "SYS", "DOC", "GAME", "CHAT", "MUS", "VID", "GAY",]
 group_layouts = ["max", "max", "max", "max", "max", "max", "max", "max", "columns",]
-group_spawns = ["librewolf", "", "alacritty", "pcmanfm", "", "discord", "", "", "alacritty, alacritty, alacritty",]
+group_spawns = ["librewolf", "", "kitty", "pcmanfm", "", "discord", "", "", "kitty, kitty, kitty",]
 
 for i in range(len(group_names)):
     groups.append(
