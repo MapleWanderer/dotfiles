@@ -270,7 +270,7 @@ def init_widgets_screen2():
 
 def init_screens():
     return [Screen(top=bar.Bar(widgets=init_widgets_screen1(), opacity=1.0, size=26),
-            wallpaper='~/.config/qtile/archwall.png',
+            wallpaper='~/Pictures/wallpapers/mintharawall.jpg',
             wallpaper_mode='fill')]
 
 
