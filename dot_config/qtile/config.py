@@ -90,7 +90,7 @@ groups = []
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9",]
 group_labels = ["WWW", "DEV", "SYS", "DOC", "GAME", "CHAT", "MUS", "VID", "GFX",]
 group_layouts = ["max", "max", "max", "max", "max", "max", "max", "max", "max",]
-groups_spawns = ["librewolf", , "alacritty", "pcmanfm", "steam", "discord", , , ,]
+groups_spawns = ["librewolf","alacritty" , "alacritty", "pcmanfm", "steam", "discord", "alacritty" , "alacritty", "alacritty",]
 
 for i in range(len(group_names)):
     groups.append(
