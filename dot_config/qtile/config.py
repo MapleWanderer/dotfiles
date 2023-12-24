@@ -86,11 +86,13 @@ keys = [
     
 ]
 
+threekitty = ["kitty", "kitty", "kitty"]
+
 groups = []
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9",]
 group_labels = ["WWW", "DEV", "SYS", "FILE", "GAME", "CHAT", "MUS", "VID", "GAY",]
 group_layouts = ["max", "max", "max", "max", "max", "max", "max", "max", "columns",]
-group_spawns = ["librewolf", "", "kitty", "pcmanfm", "", "discord", "", "", "['kitty', 'kitty', 'kitty']",]
+group_spawns = ["librewolf", "", "kitty", "pcmanfm", "", "discord", "", "", threekitty,]
 
 for i in range(len(group_names)):
     groups.append(
