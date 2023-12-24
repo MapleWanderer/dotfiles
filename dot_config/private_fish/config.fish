@@ -2,10 +2,14 @@
 ### Maple's Fish Config ###
 ###########################
 
+# Fish greeting
+function fish_greeting
+    random choice "Hello!" "Hi" "G'day" "Howdy"
+end
+
 ### EXPORT ###
-set fish_greeting                                 # Supresses fish's intro message
 set TERM "xterm-256color"                         # Sets the terminal type
-set EDITOR "vim"                 		  # $EDITOR use vim in terminal
+export EDITOR="vim"                 		  # $EDITOR use vim in terminal
 
 #Use vim instead of vi
 alias vi='vim'
