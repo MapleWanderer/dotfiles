@@ -122,8 +122,8 @@ for i in groups:
 colors = colors.DoomOne
 
 ### LAYOUT SETTINGS ###
-layout_theme = {"border_width": 2,
-                "margin": 8,
+layout_theme = {"border_width": 0,
+                "margin": 20,
                 #"border_focus": colors[8],
                 #"border_normal": colors[0]
                 }
