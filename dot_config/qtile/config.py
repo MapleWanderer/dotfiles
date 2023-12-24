@@ -86,7 +86,7 @@ keys = [
     
 ]
 
-threekitty = ["kitty", "kitty", "kitty"]
+threekitty = ["kitty", "kitty --hold neofetch", "kitty htop"]
 
 groups = []
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9",]
