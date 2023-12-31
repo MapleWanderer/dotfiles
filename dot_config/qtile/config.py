@@ -236,7 +236,7 @@ def init_widgets_list():
                  visible_on_warn = False,
                  ),
         widget.Spacer(length = 8),
-        widget.Volume(
+        widget.PulseVolume(
                  foreground = colors[7],
                  fmt = 'VOL: {}',
                  ),
