@@ -90,9 +90,9 @@ threekitty = ["kitty", "kitty", "kitty htop"]
 
 groups = []
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9",]
-group_labels = ["WWW", "SCRIB", "SYS", "FILE", "GAME", "CHAT", "MUS", "VID", "GAY",]
+group_labels = ["WWW", "SCRIB", "SYS", "FILE", "GAME", "CHAT", "MUS", "YARR", "GAY",]
 group_layouts = ["max", "max", "max", "max", "max", "max", "max", "max", "columns",]
-group_spawns = ["librewolf", "libreoffice", "kitty", "pcmanfm", "", "discord", "", "", threekitty,]
+group_spawns = ["librewolf", "", "kitty", "pcmanfm", "", "discord", "", "qbittorrent", threekitty,]
 
 for i in range(len(group_names)):
     groups.append(
