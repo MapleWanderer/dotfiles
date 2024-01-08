@@ -86,13 +86,13 @@ keys = [
     
 ]
 
-threekitty = ["kitty", "kitty", "kitty htop"]
+threekitty = ["kitty mc", "kitty", "kitty htop"]
 
 groups = []
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9",]
 group_labels = ["WWW", "SCRIB", "SYS", "FILE", "GAME", "CHAT", "MUS", "YARR", "GAY",]
-group_layouts = ["max", "max", "max", "max", "max", "max", "max", "max", "columns",]
-group_spawns = ["librewolf", "", "kitty", "pcmanfm", "", "discord", "", "qbittorrent", threekitty,]
+group_layouts = ["max", "max", "monadtall", "max", "max", "max", "max", "max", "monadtall",]
+group_spawns = ["librewolf", "", threekitty, "", "", "discord", "kitty ncmpcpp", "qbittorrent", "",]
 
 for i in range(len(group_names)):
     groups.append(
@@ -131,13 +131,13 @@ layout_theme = {"border_width": 0,
                 }
 
 layouts = [
-    layout.Columns(**layout_theme),
+    #layout.Columns(**layout_theme),
     layout.Max(),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
     # layout.Bsp(),
     # layout.Matrix(),
-    # layout.MonadTall(),
+    layout.MonadTall(**layout_theme),
     # layout.MonadWide(),
     # layout.RatioTile(),
     # layout.Tile(),
