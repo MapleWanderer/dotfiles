@@ -69,7 +69,7 @@ keys = [
         desc="Toggle between split and unsplit sides of stack",
     ),
     Key([mod], "Return", lazy.spawn(myTerm), desc="Launch terminal"),
-    #Key([mod, "shift"], "d", lazy.spawn(dmenu_run), desc="Launch Dmenu"),
+    Key([mod, "shift"], "d", lazy.spawn(rofi), desc="Launch rofi"),
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
     Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
@@ -90,9 +90,9 @@ threekitty = ["kitty mc", "kitty", "kitty htop"]
 
 groups = []
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9",]
-group_labels = ["WWW", "SCRIB", "SYS", "FILE", "GAME", "CHAT", "MUS", "YARR", "GAY",]
-group_layouts = ["max", "max", "monadtall", "max", "max", "max", "max", "max", "monadtall",]
-group_spawns = ["librewolf", "", threekitty, "", "", "discord", "kitty ncmpcpp", "qbittorrent", "",]
+group_labels = ["WWW", "SYS", "DOC", "GAME", "CHAT", "MUS", "YAR", "RSC", "GAY",]
+group_layouts = ["max", "max", "max", "max", "max", "max", "max", "max", "monadtall",]
+group_spawns = ["librewolf", "kitty", "", "", "webcord", "kitty ncmpcpp", "qbittorrent", "",]
 
 for i in range(len(group_names)):
     groups.append(
