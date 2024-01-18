@@ -37,7 +37,7 @@ import colors
 mod = "mod4"
 myTerm = "kitty"
 myBrowser = "librewolf"
-# myMenu = "rofi -show combi -combi-modes 'run,ssh' -modes combi"
+myMenu = "rofi -show combi -combi-modes 'run,ssh' -modes combi"
 
 ### KEYBINDINGS ###
 keys = [
@@ -71,7 +71,7 @@ keys = [
         desc="Toggle between split and unsplit sides of stack",
     ),
     Key([mod], "Return", lazy.spawn(myTerm), desc="Launch terminal"),
-    # Key([mod, "shift"], "d", lazy.spawn(myMenu), desc="Launch rofi"),
+    Key([mod, "shift"], "d", lazy.spawn(myMenu), desc="Launch rofi"),
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
     Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
