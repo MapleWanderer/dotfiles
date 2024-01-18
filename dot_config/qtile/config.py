@@ -132,7 +132,7 @@ layout_theme = {"border_width": 0,
                 }
 
 layouts = [
-    #layout.Columns(**layout_theme),
+    layout.Columns(**layout_theme),
     layout.Max(),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
