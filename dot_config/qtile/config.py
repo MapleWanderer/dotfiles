@@ -37,7 +37,7 @@ import colors
 mod = "mod4"
 myTerm = "kitty"
 myBrowser = "librewolf"
-myMenu = "rofi -show combi -combi-modes 'run,ssh' -modes combi"
+# myMenu = "rofi -show combi -combi-modes 'run,ssh' -modes combi"
 
 ### KEYBINDINGS ###
 keys = [
@@ -94,7 +94,7 @@ groups = []
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9",]
 group_labels = ["WWW", "SYS", "DOC", "GAME", "CHAT", "MUS", "YAR", "RSC", "GAY",]
 group_layouts = ["max", "max", "max", "max", "max", "max", "max", "max", "monadtall",]
-group_spawns = ["librewolf", "kitty", "", "", "", "kitty ncmpcpp", "qbittorrent", "",]
+group_spawns = ["librewolf", "kitty", "", "", "", "kitty ncmpcpp", "qbittorrent", "", "",]
 
 for i in range(len(group_names)):
     groups.append(
